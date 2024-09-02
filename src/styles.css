@@ -1,0 +1,137 @@
+/* styles.css */
+.app-container {
+    background-color: #181818;
+    color: white;
+    min-height: 100vh;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #202020;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    background-color: #121212;
+    border: 1px solid #303030;
+    color: white;
+  }
+  
+  .search-icon {
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .icons .icon {
+    font-size: 24px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+  }
+  
+  .main-video {
+    flex: 3;
+    padding: 20px;
+  }
+  
+  .video-list {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: calc(100vh - 60px);
+    position: relative;
+    right: 0%;
+  }
+  
+  .video-item {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .video-item img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .video-item p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .video-details h1 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .read-more {
+    color: #065fd4;
+    cursor: pointer;
+  }
+  
+  .channel-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .subscribe-button {
+    background-color: #cc0000;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  .comment-section h2 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .comment {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #202020;
+    border-radius: 5px;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #181818;
+    color: white;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+  

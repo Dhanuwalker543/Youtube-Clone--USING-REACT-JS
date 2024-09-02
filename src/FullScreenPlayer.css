@@ -1,0 +1,47 @@
+.fullscreen-player {
+    display: flex;
+    background-color: #181818;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .video-player {
+    flex: 3;
+    margin-right: 20px;
+  }
+  
+  .video-list {
+    flex: 1;
+    overflow-y: scroll;
+    background-color: #202020;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .video-item {
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .video-thumbnail {
+    width: 80px;
+    height: 45px;
+    border-radius: 8px;
+  }
+  
+  .video-info {
+    margin-left: 10px;
+    color: #ffffff;
+  }
+  
+  .close-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  

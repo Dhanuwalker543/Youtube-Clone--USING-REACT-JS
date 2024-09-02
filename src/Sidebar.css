@@ -1,0 +1,29 @@
+.sidebar {
+    width: 240px;
+    background-color: #202020;
+    color: white;
+    height: 100vh;
+    padding-top: 100px; 
+    margin-left: -8px;
+    margin-top: -10px;
+    position: fixed;
+    overflow-y: auto;
+  }
+  
+  .sidebar__item {
+    padding: 15px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar__item:hover {
+    background-color: #383838;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
